@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+body{
+    background-image: url(photos/basketball.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem;
+    width: 97%;
+    height: 93vh;
+    padding: 2rem;
+}
+
+.box-1{
+    backdrop-filter: blur(20px);
+    border-radius: 30px;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    width: 550px;
+    height: 50%;
+    padding: 1rem;
+}
+
+.box-2{
+    backdrop-filter: blur(20px);
+    border-radius: 30px;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    width: 550px;
+    height: 50%;
+}
+
+.teamA-img{
+    width: 130px;
+    height: 50%;
+}
+
+.team-a-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.teamB-img{
+    width: 150px;
+    height: 50%;
+    margin-left: 2rem;
+}
+
+.team-b-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+.score-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+h2 , p{
+    color: #fff;
+}
+
+.score-controls{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+.score-controls button{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    font-size: 22px;
+    color: #fff;
+    margin-top: 0.75rem;
+    transition: 0.3s ease-in-out;
+}
+
+.score-controls button:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.control-button{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+.control-button button{
+    width: 100px;
+    height: 35px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    margin-top: 1rem;
+    font-size: 16px;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+.control-button button:hover{
+    background-color: #fff;
+    color: black;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box-1" id="teamA">
+            <div class="teamA-img">
+                <img class="team-a-img" src="photos/FCB.jpg" alt="...">
+            </div>
+            <div class="score-text">
+                <h2>Team A</h2>
+                <p>Score<p id="scoreA">0</p></p>
+            </div>
+            <div class="score-controls">
+                <button onclick="decreaseScore('A')">-</button>
+                <button onclick="increaseScore('A')">+</button>
+            </div>
+            <div class="control-button">
+                <button onclick="setScorePrompt('A')">Score Gir</button>
+                <button onclick="setNamePrompt('A')">Takım İsmi</button>
+                <button id="resetButtonA">Reset</button>
+            </div>
+        </div>
+        <div class="box-2" id="teamB">
+            <div class="control-button">
+                <button onclick="setScorePrompt('B')">Score Gir</button>
+                <button onclick="setNamePrompt('B')">Takım İsmi</button>
+                <button id="resetButtonB">Reset</button>
+            </div>
+            <div class="score-controls">
+                <button onclick="decreaseScore('B')">-</button>
+                <button onclick="increaseScore('B')">+</button>
+            </div>
+            <div class="score-text">
+                <h2>Team B</h2>
+                <p>Score<p id="scoreB">0</p></p>
+            </div>
+            <div class="teamB-img">
+                <img class="team-b-img" src="photos/rma.jpg" alt="...">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
